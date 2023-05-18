@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugorjunk!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="elerbody">
+  <nav id="elerhetosegnav"> 
+    <input type="checkbox" id="check"> 
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo" >Ugorjunk!</label>
+    <ul>
+        <li><a  href="index.html">Kezdőoldal</a></li>
+        <li><a  href="rolunk.html">Elérhetőségeink</a></li>
+        <li><a href="termekeink.html">Ugrálóvárak</a></li>
+        <li><a class="active"  href="#">Üzenetküldés</a></li>
+        </ul>
+  </nav>
+  
+  
+  
+  <div class="container">
+   
+    <div class="contact-box" >
+        
+        <div class="left" style="border: crimson;"></div>
+        <form action="https://formspree.io/f/xknaerde" method="POST">
+        <div class="right">
+            <h2>Írj üzenetet!</h2>
+            <input type="text" class="field" placeholder="Név" name="Név">
+            <input type="text" class="field" placeholder="Email cím" name="Email">
+            <input type="text" class="field" placeholder="Telefonszám" name="Telefonszám">
+            <textarea placeholder="Üzenet" class="field" name="uzenet"></textarea>
+            <button class="btn" name="kuldes">Küldés</button>
+        </form >
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
